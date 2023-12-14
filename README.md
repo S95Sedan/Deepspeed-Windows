@@ -19,12 +19,12 @@ DeepSpeed Version 11.2 with CUDA 12.1 - Installation Instructions:
 8. In your python environment check that your CUDA_HOME and CUDA_PATH are still pointing to the correct location.
 ```set``` (to list and check the windows environment variables. Refer to step 4 if not)
 
-9. Navigate to your deepspeed folder in the Command Prompt:
+9. Navigate to your deepspeed folder in the Command Prompt:<br>
 ```cd c:\deepspeed``` (wherever you extracted it to)
 
 10. Modify the following files:
 
- deepspeed-0.11.2/build_win.bat - at the top of the file, add:
+ deepspeed-0.11.2/build_win.bat - at the top of the file, add:<br>
  ```set DS_BUILD_EVOFORMER_ATTN=0```
 
 deepspeed-0.11.2/csrc/quantization/pt_binding.cpp - lines 244-250 - change to:
