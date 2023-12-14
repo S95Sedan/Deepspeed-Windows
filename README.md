@@ -25,7 +25,7 @@ DeepSpeed Version 11.2 with CUDA 12.1 - Installation Instructions:
 10. Modify the following files:
 
  deepspeed-0.11.2/build_win.bat - at the top of the file, add:
-```set DS_BUILD_EVOFORMER_ATTN=0```
+ ```set DS_BUILD_EVOFORMER_ATTN=0```
 
 deepspeed-0.11.2/csrc/quantization/pt_binding.cpp - lines 244-250 - change to:
 ```
