@@ -12,17 +12,17 @@ DeepSpeed Version 11.2 with CUDA 12.1 - Installation Instructions:
 ```activate pythonenv```<br>
 
 6. Launch the Command Prompt cmd with Administrator privilege as it requires admin to allow creating symlink folders.
-7. Install PyTorch, 2.1.0 with CUDA 12.1 into your Python 3.11 environment e.g.
-```activate pythonenv``` (activate your python environment)
+7. Install PyTorch, 2.1.0 with CUDA 12.1 into your Python 3.11 environment e.g:<br>
+```activate pythonenv``` (activate your python environment)<br>
 ```conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia```
 
-8. In your python environment check that your CUDA_HOME and CUDA_PATH are still pointing to the correct location.
+8. In your python environment check that your CUDA_HOME and CUDA_PATH are still pointing to the correct location.<br>
 ```set``` (to list and check the windows environment variables. Refer to step 4 if not)
 
 9. Navigate to your deepspeed folder in the Command Prompt:<br>
 ```cd c:\deepspeed``` (wherever you extracted it to)
 
-10. Modify the following files:
+10. Modify the following files:<br>
 
  deepspeed-0.11.2/build_win.bat - at the top of the file, add:<br>
  ```set DS_BUILD_EVOFORMER_ATTN=0```
@@ -80,7 +80,7 @@ def get_shm_size():
         return "UNKNOWN", [f"Error getting shared memory size: {e}"]
 ```
 
-11. While still in your command line with python environment enabled run:
+11. While still in your command line with python environment enabled run:<br>
 ```build_win.bat```
 
 12. Now cd dist to go into your dist folder and you can now pip install deepspeed-YOURFILENAME.whl (or whatever your WHL file is called).
