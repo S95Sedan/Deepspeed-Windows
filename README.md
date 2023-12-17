@@ -91,5 +91,5 @@ def get_shm_size():
 ```pip install deepspeed-YOURFILENAME.whl``` (Or whichever name your .whl has you just created)
 
 14. To check if its working correctly you can type the following:<br>
-```bash```
+```bash```<br>
 ```ds_report```
