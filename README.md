@@ -91,5 +91,8 @@ def get_shm_size():
 ```pip install deepspeed-YOURFILENAME.whl``` (Or whichever name your .whl has you just created)
 
 14. To check if its working correctly you can type the following:<br>
+```set CUDA_HOME=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1```<br>
+```set CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1```<br>
+ (Set the correct paths for the CUDA Toolkit as Oobabooga doesnt have this by default)<br>
 ```bash```<br>
 ```ds_report```
