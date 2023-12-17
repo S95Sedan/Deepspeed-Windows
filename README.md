@@ -83,4 +83,12 @@ def get_shm_size():
 11. While still in your command line with python environment enabled run:<br>
 ```build_win.bat```
 
-12. Now cd dist to go into your dist folder and you can now pip install deepspeed-YOURFILENAME.whl (or whatever your WHL file is called).
+12. Once you are done building there should be a .whl file is present in:<br>
+```deepspeed-0.11.2/dist/```
+
+13. Copy that file to the root of your Oobabooga folder and run:<br>
+```cmd_windows.bat```<br>
+```pip install deepspeed-YOURFILENAME.whl``` (Or whichever name your .whl has you just created)
+
+14. To check if its working correctly you can type the following:<br>
+```ds_report```
