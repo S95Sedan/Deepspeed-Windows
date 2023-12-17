@@ -93,6 +93,6 @@ def get_shm_size():
 14. To check if its working correctly you can type the following:<br>
 ```set CUDA_HOME=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1```<br>
 ```set CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1```<br>
- (Set the correct paths for the CUDA Toolkit as Oobabooga doesnt have this by default)<br>
+ (This is only needed to make the ds_report work and check if its correctly installed, and shouldnt be needed for TTS generation.)<br>
 ```bash```<br>
 ```ds_report```
