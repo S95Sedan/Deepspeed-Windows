@@ -12,7 +12,7 @@ DeepSpeed Version 14.0 with CUDA 12.1 - Installation Instructions:
 ```activate pythonenv```<br>
 
 6. Launch the Command Prompt cmd with Administrator privilege as it requires admin to allow creating symlink folders.
-7. Install PyTorch, 2.1.2 with CUDA 12.1 into your Python 3.11 environment e.g:<br>
+7. Install PyTorch, 2.2.1 with CUDA 12.1 into your Python 3.11 environment e.g:<br>
 ```activate pythonenv``` (activate your python environment)<br>
 ```conda install pytorch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 pytorch-cuda=12.1 -c pytorch -c nvidia```
 
